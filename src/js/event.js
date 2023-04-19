@@ -79,11 +79,11 @@ $btnDownload.forEach((btn) => {
         let localStorageValue = window.localStorage.getItem(i);
         let passCheck = window.localStorage.getItem(`${i}_check`);
         if (!!localStorageValue) {
-          localStorageValue = "```javascript\n" + localStorageValue + "\n```";
+          localStorageValue = "```python\n" + localStorageValue + "\n```";
           if (!!passCheck) {
-            localStorageValue = `# Question no.${i}\n\n* Level : ${questionInfo[i]["lv"]}\n* Topic : ${questionInfo[i]["kinds"]}\n* Link : https://jsalgo.co.kr/?page=${i}\n* P/F : P\n\n${localStorageValue}\n\n`;
+            localStorageValue = `# Question ${i}\n\n* Level : ${questionInfo[i]["lv"]}\n* Topic : ${questionInfo[i]["kinds"]}\n* P/F : P\n\n${localStorageValue}\n\n`;
           } else {
-            localStorageValue = `# Question no.${i}\n\n* Level : ${questionInfo[i]["lv"]}\n* Topic : ${questionInfo[i]["kinds"]}\n* Link : https://jsalgo.co.kr/?page=${i}\n* P/F : F\n\n${localStorageValue}\n\n`;
+            localStorageValue = `# Question ${i}\n\n* Level : ${questionInfo[i]["lv"]}\n* Topic : ${questionInfo[i]["kinds"]}\n* P/F : F\n\n${localStorageValue}\n\n`;
           }
           totalData += localStorageValue;
         }
