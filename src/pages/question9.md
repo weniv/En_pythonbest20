@@ -23,8 +23,8 @@ Let's assume that input values are entered in the order of 58,000, 58,700, 55,30
 | 4 | 54200 | 58700 | 54200 | 4500 |
 | 5 | 53600 | 58700 | 53600 | 5100 |
 | 6 | 52700 | 58700 | 52700 | 6000 |
-| 7 | 57700 | 58700 | 52700 | 6000 |
-| 8 | 61100 | 58700 | 52700 | 6000 |
+| 7 | 57700 | 58700 | 57700 | 6000 |
+| 8 | 61100 | 58700 | 57700 | 6000 |
 
 - Day2: If we designate Day2 as the buying point for the worst possible loss record, the value of Day1, which is the previous point before the buying point, becomes meaningless.
 - Day8: Even though it reached the highest price, it is not updated since there is no more opportunity to sell.

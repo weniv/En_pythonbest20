@@ -22,6 +22,7 @@ Please write a function `solution` that prints the ingredients that can be purch
 - 1 ≤ priority ≤ 10 
 - Priorities will not be duplicated. 
 - Ingredients will not be duplicated.
+- Return ingredients in priority order.
 
 ---
 

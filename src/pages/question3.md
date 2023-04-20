@@ -21,7 +21,7 @@ Javadog selected talented individuals. Already highly trained special engineers!
 army = [['A', 25, 24, 11, 12], ['B', 13, 22, 16, 14]]
 ```
 
-Each input value is given in the form of `name, health, mentality, skill, defense`. If only two people apply as shown above, 30% cannot be selected, so no one will go out. If four people apply and all have different scores, only one person can go out. Complete the solution function that returns the name of the technician corresponding to the 30% selection criteria.
+Each input value is given in the form of `name, health, mentality, skill, defense`. If only two people apply as shown above, top 30% cannot be selected, so no one will go out. If four people apply and all have different scores, only one person can go out. Complete the solution function that returns the name of the technician corresponding to the 30% selection criteria.
 
 
 

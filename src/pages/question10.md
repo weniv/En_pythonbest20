@@ -40,7 +40,7 @@ However, if nothing is entered, it must be informed that `"Basic Poke will be pr
 
 ## Explanation
 
-- The number of toppings and toppings are given in an array.
+- The number of toppings and must-have toppings are given in an array.
 - The number of toppings can be entered from 0 to 5. In addition, toppings must be selected among salmon, tuna, chicken, bacon, mushroom and entered as a string.
 - If you do not choose toppings, enter an empty string.
 - The combination of toppings is output as an array.

@@ -25,7 +25,7 @@ The result is as follows.
 
 ```py
 
-'The final dream design is 2000 for the original future and 5200 for the changed future. We will create Vision according to this value.'
+'The final dream design is 2200 for the original future and 7200 for the changed future. We will create Vision according to this value.'
 
 ```
 
