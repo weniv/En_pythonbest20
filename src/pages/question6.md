@@ -10,7 +10,7 @@ Licat has come down to his hometown to prepare for a revolution. Catfish Inc., w
 
 Licat settled in the village where people who returned from Lion Town gathered. They had exhausted minds and spirits, and no one cared about them, so they comforted each other and built a village.
 
-Licat set up a free sandwich cafeteria here and took care of the packaging work without asking anyone. Licat got up early in the morning and prepared the ingredients. However, since there was a limit to what could be obtained from the village, he prepared the ingredients from the surrounding villages. Once the ingredients were ready, he packaged one sandwich at a time in the order of cooking, such as `bread → egg → bacon → vegetables → bread`.
+Licat set up a free sandwich cafeteria here and took care of the packaging work without asking anyone. Licat got up early in the morning and prepared the ingredients. However, since there was a limit to what could be obtained from the village, he prepared the ingredients from the surrounding villages. Once the ingredients were ready, he packaged one sandwich at a time in the order of cooking, such as `bread → egg → bacon → vegetable → bread`.
 
 1. When the ingredients come in the order of [bread, bread, egg, bacon, vegetable, bread, egg, bacon, vegetable, bread],
 2. You can package one sandwich from the second to sixth ingredients.
@@ -27,8 +27,8 @@ Given the ingredients that Licat receives in a list, output the number of sandwi
 - The ingredients are as follows:
   - 1: bread
   - 2: egg
-  - 3: vegetable
-  - 4: bacon
+  - 3: bacon
+  - 4: vegetable
 - There is only one correct answer.
 
 ---
@@ -40,7 +40,6 @@ Given the ingredients that Licat receives in a list, output the number of sandwi
 | [1, 2, 3, 4, 1, 1, 2, 3, 4] | 1 |
 | [1, 1, 1, 2, 3, 4, 2, 3, 4, 1] | 2 |
 | [1, 2, 3, 4, 2, 3, 4, 1] | 0 |
-| [1, 2, 3, 4, 1, 1, 2, 3, 4] | 2 |
 
 ---
 

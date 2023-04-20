@@ -19,13 +19,13 @@ Clever Mura could reconstruct the category with only a few clues. Help her to co
 ```txt
 Chief of Staff
   └ Deputy Chief of Staff
-      ├ Secretary's Office
-      ├ Planning and Management Staff
-      ├ Personnel Staff
       ├ Intelligence Operations Staff
-      │   ├ Special Forces
-      │   └ Educational Staff
-      └ Military Staff
+      │   ├ Educational Staff
+      │   └ Special Forces
+      │ Military Staff
+      ├ Personnel Staff
+      ├ Planning and Management Staff
+      └ Secretary's Office
 ```
 
 ---
@@ -36,7 +36,7 @@ Chief of Staff
 - The output consists of line breaks, spaces, and three special characters (├,│,└). 
 - Subdirectories are separated by "double space + special character + single space." 
 - If there are sub-directories in sub-directories, they should be separated by "double space + special character + single space" according to the starting character of the parent directory. 
-- Please sort each category in ascending order in the output. 
+- Please sort each category of the output in alphabetical order. 
 - All inputs are in Korean. 
 - Each category in the input is separated by "-". 
 - If a new category starts, it is separated by a space. 
@@ -73,7 +73,7 @@ Clothing
 
 ## Explanation for Input and Output
 
-For the animal category, there is only one category connected, so all are connected with "└". An "└" is entered where there are two spaces after the animal text starts, and then "Cat" comes below.
+For the animal category, there is only one category connected, so all are connected with "└".  An "└" is entered below after two spaces where the Animal text starts, and then one space and "Cat" comes.
 
 Two children exist under Clothing. Men Clothing and Women Clothing. This must be sorted in ascending order regardless of the input value. Therefore, Women Clothing cannot be placed above.
 

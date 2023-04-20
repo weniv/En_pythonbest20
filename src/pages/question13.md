@@ -34,4 +34,4 @@ Licat wanted his colleagues to rest in a more spacious place and then come up. G
 
 ## Explanation for Input and Output
 
-`[46, 26, 37, 32, 10]` and K = 30, 46, 37, and 32 can ride alone on a flight. Since 10 and 26 sums up to more than 30, they can ride together on a flight. If the sum of two weights is less than 30, they must ride with another colleague.
+When K is 30 and `[46, 26, 37, 32, 10]` is given , 46, 37, and 32 can ride alone on a flight. Since 10 and 26 sums up to more than 30, they can ride together on a flight. If the sum of two weights is less than 30, they must ride with another colleague.

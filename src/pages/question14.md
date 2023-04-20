@@ -38,3 +38,4 @@ Licat starts from (1,1) and moves to the exit of (n,m), trying to catch as many 
 ## Explanation for Input and Output
 - Find the sum of all fish that can be caught in the path that can be visited. 
 - If there is no path from (1,1) to (n,m), return -1.
+- Routes that have already been visited can be duplicated.
