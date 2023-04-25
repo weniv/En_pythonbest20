@@ -37,7 +37,7 @@ Each input value is given in the form of `name, health, mentality, skill, defens
 
 ---
 
-## Input and Output Examples
+## Examples
 
 |          Input         |  Output |
 | ------------------------ | ------- |
@@ -46,7 +46,7 @@ Each input value is given in the form of `name, health, mentality, skill, defens
 
 ---
 
-## Explanation
+## Explanation for Examples
 
 - An array containing the names, health, mentality, skill, and defense of the technicians is given as input.
 - Only the top 30% of applicants can participate in the expedition when the sum of health, mentality, skill, and defense is calculated.

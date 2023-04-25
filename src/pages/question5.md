@@ -59,7 +59,7 @@ If you write the number of spoiled carrots in all empty cells, the result is as 
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Input | Output |
 | --- | --- |
@@ -69,7 +69,7 @@ If you write the number of spoiled carrots in all empty cells, the result is as 
 
 ---
 
-## Explanation
+## Explanation for Examples
 
 - A carrot field consisting of a two-dimensional array is input. After filling in the empty cells with the number of spoiled carrots located on the perimeter, the sum of all numbers is output as the result.
 - For example, if `[[0, ‘#’], [0, 0]]` is input, the empty spaces where the number of spoiled carrots should be entered are (0, 0), (1, 0), and (1, 1).

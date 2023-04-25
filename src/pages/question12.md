@@ -26,7 +26,7 @@ Adjacent ingredients cannot be put together because they don't complement each o
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Input | Output |
 | --- | --- |
@@ -36,7 +36,7 @@ Adjacent ingredients cannot be put together because they don't complement each o
 
 ---
 
-## Explanation for Input and Output
+## Explanation for Examples
 
 An array of the number of Spicy Hot Pot ingredients, `[2, 4, 1, 3, 5, 8, 8, 6]`, is given as input.
 

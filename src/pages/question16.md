@@ -34,7 +34,7 @@ Roman numerals can be written in subtractive notation, meaning that a smaller nu
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Input List of ASCII Codes | Output |
 | --- | --- |
@@ -44,7 +44,7 @@ Roman numerals can be written in subtractive notation, meaning that a smaller nu
 
 ---
 
-## Explanation for Input and Output
+## Explanation for Examples
 
 - The input array "arr" contains ASCII codes. 
 - Your function should compute all possible combinations of Roman numerals that can be made from these ASCII codes, and return the maximum value M that can be formed. 

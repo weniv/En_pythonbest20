@@ -33,7 +33,7 @@ Given the ingredients that Licat receives in a list, output the number of sandwi
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Input                                | Output  |
 | ---------------------------------------- | ------- |
@@ -43,7 +43,7 @@ Given the ingredients that Licat receives in a list, output the number of sandwi
 
 ---
 
-## Explanation
+## Explanation for Examples
 
 - A list of numbers is inputted.
 - The order of the sandwich must always follow 1, 2, 3, 4, 1.

@@ -27,7 +27,7 @@ However, if nothing is entered, it must be informed that `"Basic Poke will be pr
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Input              | Output                                                                                                                                                                                                                                                                       |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -38,7 +38,7 @@ However, if nothing is entered, it must be informed that `"Basic Poke will be pr
 
 ---
 
-## Explanation
+## Explanation for Examples
 
 - The number of toppings and must-have toppings are given in an array.
 - The number of toppings can be entered from 0 to 5. In addition, toppings must be selected among salmon, tuna, chicken, bacon, mushroom and entered as a string.

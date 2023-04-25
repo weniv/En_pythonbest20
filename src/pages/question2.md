@@ -28,7 +28,7 @@ The colleagues who received the stones head back to their respective villages. T
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Input                                  | Output  |
 | ---------------------------------------- | ------- |
@@ -36,7 +36,7 @@ The colleagues who received the stones head back to their respective villages. T
 
 ---
 
-## Explanation
+## Explanation for Examples
 
 The extracted values from the string according to the pattern are as follows. e33 should be recognized as e3, so only 3 should be extracted.
 

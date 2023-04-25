@@ -69,7 +69,7 @@ The oranges [1, 4], [2, 3], [3, 2], and [4, 1] that were adjacent to the ripe or
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | n, m, k | Condition of Oranges | Output |
 | --- | --- | --- |
@@ -79,7 +79,7 @@ The oranges [1, 4], [2, 3], [3, 2], and [4, 1] that were adjacent to the ripe or
 
 ---
 
-## Explanation for Input and Output
+## Explanation for Examples
 
 n, m, k orange status output Explanations for Input and Output Two integers n and m, a number k indicating the duration of orange preservation, and a two-dimensional array indicating orange status are entered. When n * m oranges are sold after k days, the total number of oranges that can be sold is output.
 
