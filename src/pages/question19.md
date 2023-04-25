@@ -34,7 +34,7 @@ Given an array containing the weights of the fish, find the minimum number of fi
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Weight                                  | K | Output  |
 | ---------------------------------------- | ------- | ------- |
@@ -44,6 +44,6 @@ Given an array containing the weights of the fish, find the minimum number of fi
 
 ---
 
-## Explanation for Input and Output
+## Explanation for Examples
 
 When an array of fish weights [45, 5, 3, 15] is entered and K is 100, there are several combinations that satisfy 100. Among them, the minimum number of fish required to meet the K is 4(45, 45, 5, and 5).

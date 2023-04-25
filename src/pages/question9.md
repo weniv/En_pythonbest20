@@ -40,7 +40,7 @@ Therefore, the maximum loss amount for this graph is 6000 won. Complete a functi
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Input                                  | Output  |
 | ---------------------------------------- | ------- |
@@ -49,6 +49,6 @@ Therefore, the maximum loss amount for this graph is 6000 won. Complete a functi
 
 ---
 
-## Explanation
+## Explanation for Examples
 
 It takes daily stock prices as input and outputs the maximum loss amount that can be realized within the stock prices.

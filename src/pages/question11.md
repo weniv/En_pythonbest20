@@ -43,7 +43,7 @@ Chief of Staff
 - The output has to use the escape character `\ n` for line feeds.
 ---
 
-## Input and Output Examples
+## Examples
 
 **Input**
 
@@ -71,7 +71,7 @@ Clothing
 ```
 ---
 
-## Explanation for Input and Output
+## Explanation for Examples
 
 For the animal category, there is only one category connected, so all are connected with "└".  An "└" is entered below after two spaces where the Animal text starts, and then one space and "Cat" comes.
 

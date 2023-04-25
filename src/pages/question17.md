@@ -24,7 +24,7 @@ Write a function solution that returns the identification number of the Robot-Ca
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Input                                  | Output  |
 | ------------------------------------ | ------- |
@@ -34,7 +34,7 @@ Write a function solution that returns the identification number of the Robot-Ca
 
 ---
 
-## Explanation for Input and Output
+## Explanation for Examples
 
 - The identification numbers for the Robot-Cats that attended, and the identification numbers for the Robot-Cats that need maintenance, are given. 
 - Determine the identification number of the Robot-Cats that require an alarm. Sort in ascending order. 

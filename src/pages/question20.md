@@ -26,7 +26,7 @@ Please write a function `solution` that prints the ingredients that can be purch
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Information for Ingredients | Budget | Output  |
 |-------------------- |---- | ----- |
@@ -36,7 +36,7 @@ Please write a function `solution` that prints the ingredients that can be purch
 
 ---
 
-## Explanation for Input and Output
+## Explanation for Examples
 
 The function takes two inputs: 1. A 2D array that contains the name, price, and priority of ingredients. 2. The budget that Binky has to spend.
 

@@ -29,7 +29,7 @@ SoulGom made a mining cart and was able to move even more jewels. The mining car
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Weight of Jewels List                        | Weight of Mining Cart  |  Output  |
 | ---------------------------------------- | ------- |------- |
@@ -40,7 +40,7 @@ SoulGom made a mining cart and was able to move even more jewels. The mining car
 
 ---
 
-## Explanation
+## Explanation for Examples
 
 - There are no cases where there is no answer.
 - When adding up two jewel weights from the list of weights that are numeric, it must always match the weight of the mining cart.

@@ -26,7 +26,7 @@ Given a string array representing cat breeds collected by region and an integer 
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Breed array | Number array | Output |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ Given a string array representing cat breeds collected by region and an integer 
 
 ---
 
-## Explanation for Input and Output
+## Explanation for Examples
 
 Given arrays of strings representing cat breeds and arrays of numbers representing the number of breeds are input. Print them in order from the most number of types in descending order.
 

@@ -42,7 +42,7 @@ The result is as follows.
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Input                                  | Output  |
 | ---------------------------------------- | ------- |
@@ -50,7 +50,7 @@ The result is as follows.
 
 ---
 
-## Explanation
+## Explanation for Examples
 
 - The training values are 100 for "A" and 321 for "B". Since "B" was trained more, adding 100 to "B" makes it 421.
 - The consideration values are 110 for "A" and 40 for "B". The rest are ignored as they do not match the training values. Since "A" considered more, adding 100 to "A" makes it 210.

@@ -19,7 +19,7 @@ If the budget for buying weapons is given, how many sharpened swords can Gary ge
 
 ---
 
-## Input and Output Examples
+## Examples
 
 | Input                                  | Output  |
 | ---------------------------------------- | ------- |
@@ -29,7 +29,7 @@ If the budget for buying weapons is given, how many sharpened swords can Gary ge
 
 ---
 
-## Explanation
+## Explanation for Examples
 
 - If the budget is 100 won, Gary can buy 0 swords.
 - If the budget is 36600 won, Gary can get 12 sharpened swords. (3300 won * 11 + (complimentary sword * 1 + 300) = 36600 won)
