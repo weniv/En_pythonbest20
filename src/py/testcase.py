@@ -37,7 +37,7 @@ testcase_and_result = [{
     "testcase": [
         ["10 - \"A\". 20 - \"B\". 30 - \"A\".", "1 - \"A\". 1 - \"A\". 1 - \"A\". 1 - \"A\". 2 - \"B\". 1 - \"A\". 1 - \"B\""],
         ["10 \"a\". 10 \"a\". 10 \"a\". 20 \"b\". 30 \"c\".", "\"c\" -- 100. \"c\" -- 100. \"c\" -- 100"],
-        ["Trained 100 for \"A\". Trained 200 for \"B\". Trained 300 for \"C\"", "Trained 100 for \"D\". Trained 200 for \"E\""]
+        ["Practiced \"A\" as much as 100. Practiced \"B\" as much as 200. Practiced \"C\" as much as 300.", "Practiced \"D\" as much as 100. Practiced \"E\" as much as 200"]
     ],
     "result": [
     "The final design of the dream was originally 260 but changed to 37840. We create Vision based on these numbers.",
