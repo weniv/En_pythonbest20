@@ -1,6 +1,5 @@
 let PAGE_NAME = 1;
-// const BASE_URL = '';
-var base_url = window.location.origin + '/En_pythonbest20'
+const BASE_URL = '';
 
 if (typeof (history.pushState) != "undefined") {
     if (window.location.search != "") {

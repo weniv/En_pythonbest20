@@ -24,8 +24,7 @@ Sun(1) and Moon(0),
 Into the world of Code! (En-Coding)
 ```
 
-<!-- ![The King of Coding, Pie and Sun](./1_2.webp) -->
-![The King of Coding, Pie and Sun](/pages/img/1_2.webp)
+![The King of Coding, Pie and Sun](./1_2.webp)
 
 
 Convert the given string to 1s and 0s and convert them into characters within the ASCII code table.
