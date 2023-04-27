@@ -1,12 +1,12 @@
 - info
-    - lv1
+    - Lv.1
     - Two Pointers | Sliding Window
 
 # Maximum Loss Amount
 ![Graph Chart](./9_2.webp)
 
 ## Problem Description
-Representative No. 1 of "Catfish Inc." wanted to calculate the worst possible loss amount that could occur for risk management after looking at the graph changes for the past year. Let's find out the `worst possible loss amount` that can occur when given a graph chart.
+Representative No. 1 of "Licat's Fish Inc." wanted to calculate the worst possible loss amount that could occur for risk management after looking at the graph changes for the past year. Let's find out the `worst possible loss amount` that can occur when given a graph chart.
 
 In the above graph, buying at the highest price (61,100) and selling at the lowest price (52,700) seems to incur the maximum loss. However, from the perspective of the highest price, the lowest price is already in the past, so it becomes a meaningless past price that cannot be sold.
 

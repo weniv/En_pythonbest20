@@ -1,12 +1,11 @@
 - info
-    - lv1
-    - binary tree
+    - Lv.1
+    - Binary Tree
 
 # Robot-cat Maintenance Day
-![[Licat's fish] Conference Room](./17_1.webp)
 
 ## Problem Description
-Licat, a delegate version of [Licat's fish], a company that has become a giant, decided to create a robot, a Robot-Cat, to operate the company. So, Robot-Cat was born! Licat assigned a unique identification number to Robot-Cat to make it easy to manage Robot-Cat. Then, Robot-Cats flew all over Weniv World.
+Licat decided to create a robot called 'Robot-Cat', a delegate version of Licat's Fish Inc. to operate the giant company. So, Robot-Cat was born! Licat assigned a unique identification number to Robot-Cat to make it easy to manage Robot-Cat. Then, Robot-Cats flew all over Weniv World.
 
 And on the day of Robot-Cat maintenance, the Robot-Cats returned to the company, but there were also some Robot-Cats that couldn't return because they were too far away. For the Robot-Cats that need maintenance among those who did not attend the maintenance, an alarm should be sent.
 

@@ -1,5 +1,5 @@
 - info
-    - lv1
+    - Lv.1
     - Greedy
 
 # (Licat's Dream-2) Defeat the Lich!

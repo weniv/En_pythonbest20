@@ -1,9 +1,8 @@
 - info
-    - lv1
+    - Lv.1
     - DFS/BFS
 
 # (Licat's Dream-1) Get ready to sail!
-![Licat Sailing to Skull Island](./14_1.webp)
 
 ## Problem Description
 Licat had a dream of sailing to Skull Island before he wore his lion disguise.
