@@ -1,9 +1,9 @@
 - info
-    - lv0
+    - Lv.0
     - Implementation
 
 # Proof of Qualification
-![The King's Gate](./1_1.webp)
+
 
 ## Problem Description
 " Those who seek to sit on the throne! Prove your qualification!

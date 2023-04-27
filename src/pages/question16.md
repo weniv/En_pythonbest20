@@ -1,12 +1,11 @@
 - info
-    - lv1
+    - Lv.1
     - Implementation
 
 # 2nd Agent Selection
-![Licat's fish corporation](./16_1.webp)
 
 ## Problem Description
-[Licat's fish] had an unexpected situation where the leader, No.1, had to leave for a personal mission. [Licat's fish] was left without anyone in charge, and business operations were suspended. To select a new leader, No.1 set the following problem. The one who solves this problem will become the new leader of [Licat's fish].
+Licat's Fish Inc. had an unexpected situation where the leader, No.1, had to leave for a personal mission. Licat's Fish Inc. was left without anyone in charge, and business operations were suspended. To select a new leader, No.1 set the following problem. The one who solves this problem will become the new leader of Licat's Fish Inc.
 
 Here is the problem: Your task is to create a function called "solution(arr)" to take an array "arr" consisting of ASCII codes as input.
 

@@ -1,6 +1,6 @@
 - info
-    - lv2
-    - sorting
+    - Lv.2
+    - Sorting
 
 # Binky's Carrot Cake
 ![Binky with Carrot Cake](./20_1.webp)

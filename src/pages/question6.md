@@ -1,12 +1,11 @@
 - info
-    - lv1
+    - Lv.1
     - Stack | Queue
 
 # Sandwich Packaging
-![Catfish Inc. with 10,000 employees](./6_1.webp)
 
 ## Problem Description
-Licat has come down to his hometown to prepare for a revolution. Catfish Inc., which he established before leaving to get the original stone, has grown from 20 employees to 10,000. Licat traveled around the city without telling anyone about his return. Despite the large economic growth centered around Catfish Inc., there were still shady areas. Some people could not go to the hospital, some were begging, and more and more people were forced into labor in Lion Town because even with many cats, they could not beat the lions. They were persecuted, looted, and threatened more as much as they achieved significant economic growth.
+Licat has come down to his hometown to prepare for a revolution. Licat's Fish Inc., which he established before leaving to get the original stone, has grown from 20 employees to 10,000. Licat traveled around the city without telling anyone about his return. Despite the large economic growth centered around Licat's Fish Inc., there were still shady areas. Some people could not go to the hospital, some were begging, and more and more people were forced into labor in Lion Town because even with many cats, they could not beat the lions. They were persecuted, looted, and threatened more as much as they achieved significant economic growth.
 
 Licat settled in the village where people who returned from Lion Town gathered. They had exhausted minds and spirits, and no one cared about them, so they comforted each other and built a village.
 

@@ -1,9 +1,8 @@
 - info
-    - lv1
+    - Lv.1
     - Implementation
 
 # Organize Cat Breeds meow
-![Meeting of the Cat Tribe](./18_1.webp)
 
 ## Problem Description
 Organize the Types of Feline Species As the revolution approaches, Laikat is trying to organize types of feline species to determine the roles of fellow creatures. He wants to collect data on cat breeds by region and sort them in descending order by the most number of types. 

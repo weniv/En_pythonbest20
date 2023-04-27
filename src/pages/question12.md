@@ -1,6 +1,6 @@
 - info
-    - lv3
-    - Permutations | Brute-force
+    - Lv.3
+    - Permutation | Brute-force Search
 
 # Eat More Spicy Hot Pot
 ![SoulGom's favorite food: Spicy Hot Pot](./12_1.webp)

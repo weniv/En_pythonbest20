@@ -743,6 +743,11 @@ header .menu-nav.is-active {
 	font-weight: bold;
 	line-height: 1.4;
 }
+
+.que-article .que-tit1 {
+	margin-bottom: 3rem;
+}
+
 .que-tit2 {
 	font-weight: bold;
 	margin: 4rem 0 1rem;
@@ -792,6 +797,10 @@ header .menu-nav.is-active {
 }
 .description .que-list {
 	font-weight: normal;
+}
+
+.description .que-list .que-list{
+	text-transform: none;
 }
 
 .description > ul.que-list > li,

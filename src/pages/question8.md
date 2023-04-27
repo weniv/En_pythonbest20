@@ -1,9 +1,8 @@
 - info
-    - lv0
+    - Lv.0
     - Math
 
 # Weapon Production
-![Gary buying weapons in the forge](./8_1.webp)
 
 ## Problem Description
 Gary is preparing to buy weapons by exchanging the jewels that SoulGom received in the Arctic for money. The blacksmith Gary is requesting offers swords for 3000 won per piece, and if he sharpens the blade, an additional 300 won is added. As a regular customer, one unsharpened sword is provided for every 10 swords, and one sharpened sword is provided for every 100 swords.

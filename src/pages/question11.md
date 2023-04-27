@@ -1,6 +1,6 @@
 - info
-    - lv3
-    - Tree | LinkedList | Trie
+    - Lv.3
+    - Tree | Linked List | Trie
 
 # Heoni spilled the latte
 ![Heoni spilled the latte](./11_1.webp)
