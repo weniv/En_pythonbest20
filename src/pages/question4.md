@@ -33,7 +33,7 @@ The result is as follows.
 
 ## Constraints
 
-- The length of the input array is 2. Strings are entered in the form of [training value, consideration value].
+- The length of the input list is 2. Strings are entered in the form of [training value, consideration value].
 - Strings are always sentence-separated by a period. There is always a unique number and a unique alphabet wrapped in double quotation marks(`""`) in each split sentence.
 - If there is no matching consideration value or training value, the output should be "The future is not visible.".
 - 1 ≤ number of split sentences ≤ 10

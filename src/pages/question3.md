@@ -31,7 +31,7 @@ Each input value is given in the form of `name, strength, mentality, technical s
 
 - 0 ≤ strength, mentality, technical skills, defensive power ≤ 25
 - 1 ≤ number of technicians ≤ 10
-- The technician array is given as a two-dimensional array. Each array of input consists of the technician's name, strength, mentality, technical skills, and defensive power.
+- The technician list is given as a two-dimensional list. Each list of input consists of the technician's name, strength, mentality, technical skills, and defensive power.
 - The top 30% of applicants should be selected in the order of high scores by obtaining the sum of their strength, mentality, technical skills, and defense. Even if there is a tie, the total number of people should not exceed 30%.
 - Technician names are not duplicated.
 - In case of a tie, only one person is considered.
