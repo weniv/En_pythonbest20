@@ -115,8 +115,12 @@ testcase_and_result = [{
     "que_number": 12,
     "lv" : 3,
     "kinds": "Permutations, Brute-force",
-    "testcase": [[10, 20], [30, 40], [50, 60]],
-    "result": [30, 70, 110]
+    "testcase": [
+        [2, 4, 1, 3, 5, 8, 8, 6],
+        [10, 2, 5, 2, 7, 9, 3, 5],
+        [12, 9, 7, 8, 6, 2, 2, 6]
+    ],
+    "result": [21, 29, 31]
 }, {
     "que_number": 13,
     "lv" : 1,
@@ -133,14 +137,18 @@ testcase_and_result = [{
     "que_number": 15,
     "lv" : 2,
     "kinds": "matrix",
-    "testcase": [[10, 20], [30, 40], [50, 60]],
-    "result": [30, 70, 110]
+    "testcase": [
+        [5, 5, 3, [[1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]],
+        [7, 5, 4, [[0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 1, 0], [0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0]]],
+        [4, 3, 2, [[0, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 0]]]
+    ],
+    "result": [7, 2, 5]
 }, {
     "que_number": 16,
     "lv" : 1,
     "kinds": "Implementation",
-    "testcase": [[10, 20], [30, 40], [50, 60]],
-    "result": [30, 70, 110]
+    "testcase": [[73, 88, 86], [67, 86, 77, 76], [68, 86, 76, 73, 88]],
+    "result": [16, 1155, 566]
 }, {
     "que_number": 17,
     "lv" : 1,
@@ -175,7 +183,7 @@ testcase_and_result = [{
     "testcase": [
         [[["strawberry", "cream", "flour", "butter"], [15, 8, 4, 20], [4, 3, 2, 1]], 40], 
 		[[["milk", "egg", "butter", "chocolate cinnamon", "pineapple", "cream"], [10, 5, 5, 18, 6, 3], [1, 3, 2, 4, 5, 6]], 10], 
-		[[["strawberry", "milk", "butter", "chocolate cinnamon", "grapefruit", "cream"], [120, 150, 130, 118, 126, 130], [6, 5, 4, 3, 2, 1]], 100]
+		[[["strawberry", "milk", "butter", "chocolate cinnamon", "green grape", "cream"], [120, 150, 130, 118, 126, 130], [6, 5, 4, 3, 2, 1]], 100]
     ],
     "result": [
         ["butter", "flour", "cream"],

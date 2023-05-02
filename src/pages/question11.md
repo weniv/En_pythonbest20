@@ -2,19 +2,19 @@
     - Lv.3
     - Tree | Linked List | Trie
 
-# Heoni spilled the latte
+# Mura's Spilled Latte
 ![Heoni spilled the latte](./11_1.webp)
 
 ## Problem Description
-Mura, the bookkeeper, was forming a revolutionary team on her notebook! Butler Heoni spilled the latte she was serving to Mura, which fell directly onto Mura's notebook.
+Mura, the strategist, was forming a revolutionary team in her notebook! When butler Heoni was passing the latte to Mura, it fell directly onto Mura's notebook.
 
-The part where the entire structure was written was destroyed, but meticulous mura wrote an example of a rough category approach in the book.
+The part where the entire structure was written was damaged, but meticulous Mura have already written an example of a rough category approach in the notebook as follow.
 
 ```py
 ["Chief of Staff-Deputy Chief of Staff-Secretary's Office", "Chief of Staff-Deputy Chief of Staff", "Deputy Chief of Staff-Planning and Management Staff", "Deputy Chief of Staff-Personnel Staff", "Deputy Chief of Staff-Intelligence Operations Staff", "Chief of Staff-Deputy Chief of Staff-Military Staff", "Intelligence Operations Staff-Special Forces", "Intelligence Operations Staff-Educational Staff"]
 ```
 
-Clever Mura could reconstruct the category with only a few clues. Help her to configure it as follows based on these examples!
+Clever Mura could reconstruct the category with only a few clues. Help her to configure it as follows based on this example!
 
 ```txt
 Chief of Staff
@@ -34,13 +34,12 @@ Chief of Staff
 
 - Input is given as an array. 
 - The output consists of line breaks, spaces, and three special characters (├,│,└). 
-- Subdirectories are separated by "double space + special character + single space." 
-- If there are sub-directories in sub-directories, they should be separated by "double space + special character + single space" according to the starting character of the parent directory. 
-- Please sort each category of the output in alphabetical order. 
-- All inputs are in Korean. 
+- Sub-directories are separated by `two spaces + special character + space.` 
+- If there are sub-directories in sub-directories, they should be separated by `two spaces + special character + space` based on the starting point of the parent directory. 
+- The ouput of each category should be sorted in alphabetical order. 
 - Each category in the input is separated by "-". 
-- If a new category starts, it is separated by a space. 
-- The output has to use the escape character `\ n` for line feeds.
+- If a new category starts, it comes after a blank line. 
+- The output has to use the escape character `\ n` for line breaks.
 ---
 
 ## Examples
@@ -73,10 +72,10 @@ Clothing
 
 ## Explanation for Examples
 
-For the animal category, there is only one category connected, so all are connected with "└".  An "└" is entered below after two spaces where the Animal text starts, and then one space and "Cat" comes.
+For the "Animal" category, all are connected with "└" since there is only one connection. In the second line, "└" is entered after two spaces from where the "Animal" text starts, and then one space and "Cat" comes.
 
-Two children exist under Clothing. Men Clothing and Women Clothing. This must be sorted in ascending order regardless of the input value. Therefore, Women Clothing cannot be placed above.
+"Clothing" category has two sub-categories, "Men Clothing" and "Women Clothing". This must be sorted in alphabetical order regardless of the input order. Therefore, "Men Clothing" should come first.
 
-Since there is Women Clothing below Men Clothing, there must be a "│" at the front where the descendant categories of Men Clothing are connected when they are continuous.
+Since "Women Clothing" is below "Men Clothing", there must be two spaces and "│" in the front for all the descendant categories of Men Clothing.
 
-The line feed is expressed as the escape character in the actual output, `\n`.
+The line break is expressed as the escape character `\n` in the actual output.

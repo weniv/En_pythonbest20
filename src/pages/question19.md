@@ -6,23 +6,23 @@
 ![Licat battling the Lich](./19_1.webp)
 
 ## Problem Description
-While catching fish near Skeleton Island, a cat encounters a fierce storm.
+Catching fish near Skull Island, Licat encountered a fierce storm.
 
 " The storm is too strong to go home, meow...
 
-The cat anchors the ship on Skeleton Island beach and begins to explore the island in search of a place to stay for the night. There were various statues scattered around Skeleton Island. Then, a muffled voice was heard from somewhere.
+Licat anchored the ship on the beach and began to explore the island in search of a place to stay for the night. There were various statues scattered around Skull Island. Then, a muffled voice was heard from somewhere.
 
-" Who are you? The one who came to a place where a visitor cannot reach...? Interesting, coming from a dream.
+" Who are you? This is a place where alive people cannot reach... Interesting that you came from a dream.
 
-A skull with a cloak floated up from the water. The cat remembered a legend. Long ago, a cursed Lich was trapped on Skeleton Island and turned any cat that trespassed on his territory into stone. 
+A skull with a cloak floated up from the water. An old legend popped up in Licat's head. It was about a cursed Lich who was trapped on Skull Island and turned any cat that trespassed on his territory into stone. 
 
-" I'll give you a greed problem since you've come to a place where visitors cannot enter. If you solve this, it will be a curse and a gift.
+" I'll give you a greedy problem as you've come to a place where alive visitors cannot come. If you solve this, I'll give you something which could be a curse and a gift.
  
 The Lich uttered an unknown spell.
 
-" I put a spell on your fish bag, so you can endlessly pull out fish from it. I'll give you an exact weight K. Tell me the minimum number of fish that can meet the weight K.
+" I put a spell on your fish bag, so you can endlessly take out fish from it. I'll give you an exact weight K. Tell me the minimum number of fish that can meet the weight K.
 
-Given an array containing the weights of the fish, find the minimum number of fish that can be combined to create the weight K.
+Given an array containing the weights of the fish, find the minimum number of fish that can be combined to satisfy the weight K.
 
 ---
 
@@ -46,4 +46,4 @@ Given an array containing the weights of the fish, find the minimum number of fi
 
 ## Explanation for Examples
 
-When an array of fish weights [45, 5, 3, 15] is entered and K is 100, there are several combinations that satisfy 100. Among them, the minimum number of fish required to meet the K is 4(45, 45, 5, and 5).
+When an array of fish weights [45, 5, 3, 15] is given and K is 100, there are several combinations that satisfy 100. Among them, the minimum number of fish required to meet the K is 4(45, 45, 5, and 5).

@@ -3,22 +3,23 @@
     - Heap
 
 # Boarding the Flight
-![Measuring the weight of a Licat](./13_1.webp)
+![Licat measuring the weight](./13_1.webp)
 
 ## Problem Description
-Licat has given the order to embark. Licat's colleagues, who gathered their strengths in each region, are heading to Lyon Town through each region. This flight has a minimum weight limit of K.
+Licat has made an embark order. Licat's colleagues who gained their power in each region are taking a flying boat to head to Lion Town. This flight has a minimum weight limit of K.
 
-If a colleague weighs over K, they must ride alone on the flight. If their weight is K or less, they can board a flight together if their total weight is K or more, regardless of the number of people.
+If a colleague weighs over K, they must ride alone on the flight. If their weight is less than K, they can board a flight together when their total weight is K or more, regardless of the number of people.
 
-Licat wanted his colleagues to rest in a more spacious place and then come up. Given an array containing the weight of his colleagues, find the maximum number of flights needed for everyone to board the flight.
+Licat wanted his colleagues to rest in a more spacious place when coming up. Given an array containing the weight of his colleagues, find the maximum number of flying boats needed for everyone to board the flight.
 
 ---
 
 ## Constraints
 
+- Input is given as a two-dimensional array. The first one is an array of `weights`, and the second is the `minimum weight limit`.
 - The weight of colleagues is an integer between 1 and 100, inclusive. 
 - K is an integer between 0 and 50, inclusive. 
-- If no one can board the flight, print -1.
+- If no one can board the flight, return -1.
 
 ---
 
