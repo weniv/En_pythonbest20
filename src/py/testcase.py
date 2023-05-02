@@ -183,7 +183,7 @@ testcase_and_result = [{
     "testcase": [
         [[["strawberry", "cream", "flour", "butter"], [15, 8, 4, 20], [4, 3, 2, 1]], 40], 
 		[[["milk", "egg", "butter", "chocolate cinnamon", "pineapple", "cream"], [10, 5, 5, 18, 6, 3], [1, 3, 2, 4, 5, 6]], 10], 
-		[[["strawberry", "milk", "butter", "chocolate cinnamon", "grapefruit", "cream"], [120, 150, 130, 118, 126, 130], [6, 5, 4, 3, 2, 1]], 100]
+		[[["strawberry", "milk", "butter", "chocolate cinnamon", "green grape", "cream"], [120, 150, 130, 118, 126, 130], [6, 5, 4, 3, 2, 1]], 100]
     ],
     "result": [
         ["butter", "flour", "cream"],

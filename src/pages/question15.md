@@ -2,7 +2,7 @@
     - Lv.2
     - Matrix
 
-# Sell Oranges
+# Selling Oranges
 ![Ali's Orange Farm](./15-1.webp)
 
 ## Problem Description

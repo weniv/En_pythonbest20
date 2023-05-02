@@ -2,7 +2,7 @@
     - Lv.1
     - DFS/BFS
 
-# (Licat's Dream-1) Get ready to sail!
+# (Licat's Dream-1) Get Ready to Sail!
 
 ## Problem Description
 Licat had a dream of sailing to Skull Island before he wore his lion disguise.

@@ -2,7 +2,7 @@
     - Lv.3
     - Tree | Linked List | Trie
 
-# Heoni spilled the latte
+# Mura's Spilled Latte
 ![Heoni spilled the latte](./11_1.webp)
 
 ## Problem Description
