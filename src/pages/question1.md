@@ -52,5 +52,3 @@ Convert the given string to 1 and 0 and convert them into characters within the 
 
 ## Explanation for Examples
 The `+` becomes `1`, and the `-` becomes `0`, so ' + - - + - + - ' becomes 1001010. When this number is converted to decimal, it becomes 74. In the ASCII code table, 74 represents the uppercase letter J. By converting the other two strings in the same way and combining them, we get 'Jun.'
-
----
