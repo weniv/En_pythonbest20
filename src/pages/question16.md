@@ -2,16 +2,14 @@
     - Lv.1
     - Implementation
 
-# 2nd Agent Selection
+# 2nd Deputy Selection
 
 ## Problem Description
-Licat's Fish Inc. had an unexpected situation where the leader, No.1, had to leave for a personal mission. Licat's Fish Inc. was left without anyone in charge, and business operations were suspended. To select a new leader, No.1 set the following problem. The one who solves this problem will become the new leader of Licat's Fish Inc.
+Licat's Fish Inc. had an unexpected situation where the leader, No.1, had to leave for a personal mission. Licat's Fish Inc. was left without anyone in charge and all the operations were paralyzed. To select a new leader, No.1 set the following problem. The one who solves this problem will become the new leader of Licat's Fish Inc. The problem is as follows.
 
-Here is the problem: Your task is to create a function called "solution(arr)" to take an array "arr" consisting of ASCII codes as input.
+Given an input array consisting of ASCII codes, it should be converted to corresponding Roman numerals using the following table. Then all the possible combinations of numbers are extracted, and the maximum value M is returned.
 
-The function should convert the input array to a list of Roman numerals using the following table.
-
-| Roman Numera | Value |
+| Roman Numeral | Value |
 | --- | --- |
 | I | 1 |
 | V | 5 |
@@ -21,21 +19,21 @@ The function should convert the input array to a list of Roman numerals using th
 | D | 500 |
 | M | 1000 |
 
-Roman numerals can be written in subtractive notation, meaning that a smaller numeral can be placed before a larger numeral to represent the difference, e.g. IV represents 4 (5-1). Your function should compute all possible combinations of these Roman numerals and return the maximum value M.
+Roman numerals can be written in subtractive notation, meaning that a smaller numeral can be placed before a larger numeral to represent a single numeral using two characters. For example, IV represents 4 (5-1). The solution function should follow this notation rule.
 
 ---
 
 ## Constraints
 
-- The input array "arr" will not contain duplicated elements. 
-- 1 ≤ len(arr) ≤ 5 
+- The input array will not contain duplicated elements.
+- 1 ≤ length of an array ≤ 5 
 - 1 ≤ M ≤ 1660
 
 ---
 
 ## Examples
 
-| Input List of ASCII Codes | Output |
+| Input | Output |
 | --- | --- |
 | [73, 88, 86] | 16 |
 | [67, 86, 77, 76] | 1155 |
@@ -45,8 +43,8 @@ Roman numerals can be written in subtractive notation, meaning that a smaller nu
 
 ## Explanation for Examples
 
-- The input array "arr" contains ASCII codes. 
-- Your function should compute all possible combinations of Roman numerals that can be made from these ASCII codes, and return the maximum value M that can be formed. 
+- The input is an array of ASCII codes.
+- The function should compute all possible combinations of Roman numerals that can be made from these ASCII codes, and return the maximum value M among them.
 - The Roman numerals for [73, 88, 86] are [I, X, V]. 
-- X is the largest numeral and it must come first (at position arr[0]). Therefore, there are two possible combinations: [X, I, V] and [X, V, I]. 
-- The first combination gives 14 and the second 16 so the maximum value M is 16.
+- X is the largest numeral, so it should come first. Therefore, there are two possible combinations: [X, I, V] and [X, V, I]. 
+- The first combination equals 14 and the second 16, so the maximum value M is 16.

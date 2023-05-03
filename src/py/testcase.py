@@ -37,7 +37,7 @@ testcase_and_result = [{
     "testcase": [
         ["10 - \"A\". 20 - \"B\". 30 - \"A\".", "1 - \"A\". 1 - \"A\". 1 - \"A\". 1 - \"A\". 2 - \"B\". 1 - \"A\". 1 - \"B\""],
         ["10 \"a\". 10 \"a\". 10 \"a\". 20 \"b\". 30 \"c\".", "\"c\" -- 100. \"c\" -- 100. \"c\" -- 100"],
-        ["Trained 100 for \"A\". Trained 200 for \"B\". Trained 300 for \"C\"", "Trained 100 for \"D\". Trained 200 for \"E\""]
+        ["Practiced \"A\" as much as 100. Practiced \"B\" as much as 200. Practiced \"C\" as much as 300.", "Practiced \"D\" as much as 100. Practiced \"E\" as much as 200"]
     ],
     "result": [
     "The final design of the dream was originally 260 but changed to 37840. We create Vision based on these numbers.",
@@ -115,8 +115,12 @@ testcase_and_result = [{
     "que_number": 12,
     "lv" : 3,
     "kinds": "Permutations, Brute-force",
-    "testcase": [[10, 20], [30, 40], [50, 60]],
-    "result": [30, 70, 110]
+    "testcase": [
+        [2, 4, 1, 3, 5, 8, 8, 6],
+        [10, 2, 5, 2, 7, 9, 3, 5],
+        [12, 9, 7, 8, 6, 2, 2, 6]
+    ],
+    "result": [21, 29, 31]
 }, {
     "que_number": 13,
     "lv" : 1,
@@ -133,14 +137,18 @@ testcase_and_result = [{
     "que_number": 15,
     "lv" : 2,
     "kinds": "matrix",
-    "testcase": [[10, 20], [30, 40], [50, 60]],
-    "result": [30, 70, 110]
+    "testcase": [
+        [5, 5, 3, [[1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]],
+        [7, 5, 4, [[0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 1, 0], [0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0]]],
+        [4, 3, 2, [[0, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 0]]]
+    ],
+    "result": [7, 2, 5]
 }, {
     "que_number": 16,
     "lv" : 1,
     "kinds": "Implementation",
-    "testcase": [[10, 20], [30, 40], [50, 60]],
-    "result": [30, 70, 110]
+    "testcase": [[73, 88, 86], [67, 86, 77, 76], [68, 86, 76, 73, 88]],
+    "result": [16, 1155, 566]
 }, {
     "que_number": 17,
     "lv" : 1,
@@ -175,7 +183,7 @@ testcase_and_result = [{
     "testcase": [
         [[["strawberry", "cream", "flour", "butter"], [15, 8, 4, 20], [4, 3, 2, 1]], 40], 
 		[[["milk", "egg", "butter", "chocolate cinnamon", "pineapple", "cream"], [10, 5, 5, 18, 6, 3], [1, 3, 2, 4, 5, 6]], 10], 
-		[[["strawberry", "milk", "butter", "chocolate cinnamon", "grapefruit", "cream"], [120, 150, 130, 118, 126, 130], [6, 5, 4, 3, 2, 1]], 100]
+		[[["strawberry", "milk", "butter", "chocolate cinnamon", "green grape", "cream"], [120, 150, 130, 118, 126, 130], [6, 5, 4, 3, 2, 1]], 100]
     ],
     "result": [
         ["butter", "flour", "cream"],

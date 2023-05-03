@@ -2,10 +2,10 @@
     - Lv.1
     - Implementation
 
-# Organize Cat Breeds meow
+# Sorting Cat Breeds
 
 ## Problem Description
-Organize the Types of Feline Species As the revolution approaches, Laikat is trying to organize types of feline species to determine the roles of fellow creatures. He wants to collect data on cat breeds by region and sort them in descending order by the most number of types. 
+As the revolution approaches, Licat is trying to sort types of feline species to determine their roles. He wants to collect data on cat breeds by region and sort them in descending order by the most number of types.
 
 The feline species are as follows.
 
@@ -13,21 +13,21 @@ The feline species are as follows.
 Korean Shorthair, British Shothair, Maine Coon, Sphynx, Bengal, Norwegian Forest
 ```
 
-Given a string array representing cat breeds collected by region and an integer array representing the numbers, print them in order from the most number of types in descending order.
+Given a string array representing cat breeds collected by region and an integer array representing population, return them in order from the most number of types in descending order.
 
 ---
 
 ## Constraints
 
-- The length of the array representing the breed and the array for the number should be the same. 
+- The length of the array representing the breed and the array for the population should be the same.
 - Both arrays have a length between 1 and 10,000. 
-- If there are multiple breeds with the same number, they are sorted in alphabetical order.
+- If there are multiple breeds with the same population, they are sorted in alphabetical order.
 
 ---
 
 ## Examples
 
-| Breed array | Number array | Output |
+| Breed Array | Population Array | Output |
 | --- | --- | --- |
 | [“Korean Shorthair“, “Korean Shorthair“, “Maine Coon”, “Bengal”, “Maine Coon”, “British Shorthair“, “Norwegian Forest” ] | [30, 15, 13, 4, 45, 9, 21] | ["Maine Coon", "Korean Shorthair",  "Norwegian Forest", "British Shorthair", "Bengal"] |
 | [”Sphynx”, “British Shorthair“, “Sphynx”, “Sphynx”, “Bengal”, “Maine Coon”] | [3, 16, 1, 9, 25, 5] | ["Bengal", "British Shorthair", "Sphynx", "Maine Coon"] |
@@ -37,10 +37,10 @@ Given a string array representing cat breeds collected by region and an integer 
 
 ## Explanation for Examples
 
-Given arrays of strings representing cat breeds and arrays of numbers representing the number of breeds are input. Print them in order from the most number of types in descending order.
+A string array representing cat breeds and an array of numbers representing each population are input. Return the breeds in the order of the most number of types in descending order.
 
-1. Input the breed array ['Sphinx', 'British Shorthair', 'Sphinx', 'Sphinx', 'Bengal', 'Maine Coon'] and the number array [3, 16, 1, 9, 25, 5]. 
-2. The largest number in the number array is 25, which is mapped to 'Bengal'. Therefore, Bengal is first in order. 
-3. The second largest number is 16, which is mapped to 'British Shorthair'. Therefore, next after Bengal is 'British Shorthair'. 
-4. Sphinx has 3 entries. 3, 1, and 9 are the numbers for them. The sum of these numbers is 13, which is smaller than 16 for British Shorthair. Therefore, currently, ['Bengal', 'British Shorthair', 'Sphinx']. 
-5. Last but not least, Maine Coon goes last since it is 5.
+1. The breed array ['Sphinx', 'British Shorthair', 'Sphinx', 'Sphinx', 'Bengal', 'Maine Coon'] and the population array [3, 16, 1, 9, 25, 5] are given.
+2. The largest number in the population array is 25, which is mapped to 'Bengal'. Therefore, 'Bengal' is first in order. 
+3. The second largest number is 16, which is mapped to 'British Shorthair'. Therefore, 'British Shorthair' comes after 'Bengal'.
+4. 'Sphynx' has three values: 3, 1, and 9. The sum of these numbers is 13 which is smaller than 16 for 'British Shorthair'. Therefore, the result is ['Bengal', 'British Shorthair', 'Sphynx'] so far.
+5. Lastly, 'Maine Coon' goes last since its population is 5.
