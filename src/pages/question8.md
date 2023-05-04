@@ -14,7 +14,7 @@ If the budget for buying weapons is given, how many sharpened swords can Gary ge
 ## Constraints
 
 - The budget is always a positive integer and multiples of 100.
-- 100 ≤ Budget ≤ 1000000
+- 100 ≤ budget ≤ 1000000
 
 ---
 

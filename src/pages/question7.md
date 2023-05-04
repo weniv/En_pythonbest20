@@ -3,7 +3,7 @@
     - Two Pointers | Sliding Window
 
 # Sum of Two Numbers
-![SoulGom visits a mine in the Arctic](./7_1.webp)
+![SoulGom visiting a mine in the Arctic](./7_1.webp)
 
 ## Problem Description
 SoulGom had no hometown. She was an NPC created by Pie and Sun! But by receiving a Soul Stone, she gained a soul as well as great wisdom and the ability to see the world of souls.
