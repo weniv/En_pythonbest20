@@ -106,7 +106,7 @@ $languageSelector.addEventListener("change", (e) => {
   lang = e.target.value;
 
   if (lang === "javascript") {
-    window.location = "https://jsalgo.co.kr/";
+    window.location = "https://jsalgo.net/";
   } else {
     return;
   }
