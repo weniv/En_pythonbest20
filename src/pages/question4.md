@@ -12,14 +12,14 @@ Although the Real Stone cannot actually help them make it happen, it can at leas
 
 ```py
 ['Binky trained 10 times "A". Binky trained 20 times "B" even though the weather was bad. Binky trained 10 times "B" while it was raining.',
-'Binky contemplated about "A" as much as 30. Binky thought about "B" as much as 40. Binky spent a long time, 70, thinking about "A". Surprisingly, Binky thought 10 times "C".']
+'Binky contemplated about "A" as much as 30. Binky thought about "B" as much as 40. Binky thought about "A" as much as 70. Surprisingly, Binky thought 10 times "C".']
 ```
 
-Extract all the numbers from the first string. The number of times "A" was trained is 10 and the number of times "B" was trained is 30. Extract numbers from the second string as well. The number of times "A" was thought about is 100, the number of times "B" was thought about is 40, and the number of times "C" was thought about is 10. Calculate this value as `training value X consideration value`. "C" disappears because it was not trained.
+Each item in the list represents 'training value' and 'consideration value'. Extract all the numbers from the first string. The number of times "A" was trained is 10 and the number of times "B" was trained is 30. Extract numbers from the second string as well. The number of times "A" was thought about is 100, the number of times "B" was thought about is 40, and the number of times "C" was thought about is 10. Calculate this value as `training value X consideration value`. "C" disappears because it was not trained.
 
 Original future: When multiplying the number of times "A" was trained by the number of times "A" was thought about, the result is 1000. When multiplying the number of times "B" was trained by the number of times "B" was thought about, the result is 1200. Sum of these values is the original future.
 
-Changed future: Add 100 to the value that was trained most and thought about most. Add 100 to the value that was thought about the most. Therefore, the number of times "B" was trained becomes 130 and the number of times "A" was thought about becomes 200. Finally, since the number of times "A" was trained is 10 and the number of times "A" was thought about is 200, the result is 2000. The number of times "B" was trained is 130, and the number of times "B" was thought about is 40, so the result of multiplication becomes 5200.
+Changed future: Add 100 to the value that was trained most and thought about most. Therefore, the number of times "B" was trained becomes 130 and the number of times "A" was thought about becomes 200. Finally, since the number of times "A" was trained is 10 and the number of times "A" was thought about is 200, the result is 2000. The number of times "B" was trained is 130, and the number of times "B" was thought about is 40, so the result of multiplication becomes 5200.
 
 The result is as follows.
 
