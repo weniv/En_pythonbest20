@@ -34,7 +34,6 @@ Each input value is given in the form of `name, strength, mentality, technical s
 - The technician list is given as a two-dimensional list. Each list of input consists of the technician's name, strength, mentality, technical skills, and defensive power.
 - The top 30% of applicants should be selected in the order of high scores by obtaining the sum of their strength, mentality, technical skills, and defensive power. Even if there is a tie, the total number of people should not exceed 30%.
 - Technician names are not duplicated.
-- In case of a tie, only one person is considered.
 - If the number of tied technicians who get the highest score exceeds 30% of the total, no one can be selected.
 - The names of the technicians are returned in reversed alphabetical order.
 
