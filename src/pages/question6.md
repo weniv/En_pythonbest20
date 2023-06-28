@@ -39,7 +39,7 @@ Given the ingredients that Licat receives in a list, output the number of sandwi
 | Input                                | Output  |
 | ---------------------------------------- | ------- |
 | [1, 2, 3, 4, 1, 1, 2, 3, 4] | 1 |
-| [1, 1, 1, 2, 3, 4, 2, 3, 4, 1] | 2 |
+| [1, 1, 1, 2, 3, 4, 1, 2, 3, 4, 1] | 2 |
 | [1, 2, 3, 4, 2, 3, 4, 1] | 0 |
 
 ---
