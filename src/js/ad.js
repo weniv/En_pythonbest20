@@ -11,7 +11,7 @@ const kgData = [
     content: "JavaAlgo Youtube Course",
   },
   {
-    img: "./src/img/kg/inflearn-pygibest.webp",
+    img: "./src/img/kg/inflearn-pybest.webp",
     link: "https://www.youtube.com/watch?v=y3zAFledtuM&list=PLkfUwwo13dlXMChSGQ6W3GVb44w0bsfp2",
     content: "Pyalgo Youtube Course",
   },
